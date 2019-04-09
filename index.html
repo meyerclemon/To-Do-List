@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <hr>
+          <form id="new-task">
+            <div class="form-group">
+              <label for="new-task">Add a task:</label>
+              <input type="text"  class="form-control" id="new-task">
+            </div>
+            <button type="submit" class="btn-primary">Add</button>
+          </form>
+          <hr>
+          <h2>To Do:</h2>
+          <ul id="to-do">
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="show-completed-task">
+            <p>You did it!: <span class="completed-task"></span></p>
+
+            <div id="buttons">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
